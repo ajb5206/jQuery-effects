@@ -7,10 +7,9 @@ img {
   display: none;
 }
 
-#lion-hidden {
+#lion-showing {
   display: none;
 }
-
 .clickable {
   cursor: pointer;
   color: #0088cc;

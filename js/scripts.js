@@ -2,6 +2,7 @@ $(document).ready(function() {
   $(".clickable").click(function() {
     $("#walrus-showing").fadeToggle();
     $("#walrus-hidden").fadeToggle();
-    $("#lion-hidden").slideToggle();
-  });
+    $("#lion-showing").toggle();
+    $("#lion-hidden").toggle();
+  })
 });
